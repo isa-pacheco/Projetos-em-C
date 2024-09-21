@@ -16,7 +16,10 @@ void main(){
       }while(v>0);
         
         printf("\nSoma: %.2f",s);
+	
         printf("\nMedia: %.2f",m);
+	
         printf("\nTotal de valores lidos: %i",x++ - 1);
+	
         getchar();
     }
