@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main(){
+	int x, n=0, m1=0, m2=0;
+	
+	do{
+		printf("\nInforme seu numero:");
+		if(n>0){
+			if(n>x){
+			m1 = n;
+		}if(n<m2 || m2 == 0){
+			m2 = n;
+		}
+		}
+	}while(n>0);
+	printf("\nMaior valor: %i",m1);
+	getchar();
+}
