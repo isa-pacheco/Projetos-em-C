@@ -3,7 +3,8 @@
 
 void main(){
 	int x, n=0, m1=0, m2=0;
-	
+
+	printf("\nCaso o Numero informado for menor ou igual do que 0 o programa sera Interrompido");
 	do{
 		printf("\nInforme seu numero:");
 		if(n>0){
