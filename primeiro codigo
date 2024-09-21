@@ -6,6 +6,7 @@ void main(){
 	
 	do{
 		printf("\nInforme seu numero:");
+		scanf("%i",&n);
 		if(n>0){
 			if(n>x){
 			m1 = n;
@@ -15,5 +16,6 @@ void main(){
 		}
 	}while(n>0);
 	printf("\nMaior valor: %i",m1);
+	printf("\nMenor valor: %i",m2);
 	getchar();
 }
